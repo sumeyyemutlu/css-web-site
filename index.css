@@ -44,7 +44,7 @@
     text-decoration: none;
 }
 .navbar ul li a:hover {
-    background-color: rgb(233, 201, 198);
+    background-color: antiquewhite;
     border-radius: 50%;
     text-decoration: underline;
 }
@@ -79,4 +79,26 @@
 .main_right img {
 border-radius: 50% ;
 }
+.btn {
+    width: 200px;
+  
+}
+.btn a{
+    text-decoration: none;
+    background-color:rgb(56, 150, 56);
+    color:#fdf9f3; 
+    font-size: 1.2em;
+    
+}
 
+.btn button {
+    height: 43px;
+    width: 200px;
+    background-color:rgb(56, 150, 56) ;
+    border: 1px solid #ccc4c4;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.btn button:hover {
+    cursor: pointer;
+}

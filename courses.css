@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1a1a1a;
+    background-color: #fdf9f3;
+}
+.container .navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #fdf9f3;
+    border-bottom: 0.5px solid #ccc4c4 ;
+    
+}
+.navbar .logo {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left:40px ;
+    background-color: #fff;
+    
+    
+}
+.navbar .logo a {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #1a1a1a;
+
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style:none;
+    display: inline-flex;
+    margin:0 8px ;
+    line-height: 70px;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background-color: antiquewhite;
+    border-radius: 50%;
+    text-decoration: underline;
+}
+
+
+
+.courses .react_course, .github_course, .csharp_course {
+    float: left;
+    width: 280px;
+    border: 1px solid #d4cbcb;
+    background-color: #fff;
+    margin: 25px;
+    cursor: pointer;
+}
+.courses .react_course, .github_course, .csharp_course:hover {
+    cursor: pointer;
+    border-bottom: #030101 1px solid .5px;
+}
+.courses .react_course h3, .courses .csharp_course h3, .courses .github_course h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+.courses .react_course p, .courses .csharp_course p, .courses .github_course p {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+.btn{
+    height: 40px;
+    width: 180px;
+    background-color:rgb(137, 209, 88) ;
+    border: 1px solid #ccc4c4;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+}
+.btn a {
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color:rgb(137, 209, 88);
+    color: white;
+}
+.btn:hover {
+    cursor: pointer;
+}

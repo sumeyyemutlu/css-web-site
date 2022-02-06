@@ -50,24 +50,15 @@
     text-decoration: underline;
 }
 
-.content {
-    width: 420px;
-    position: absolute;
-    left: 35%;
-    right:40px;
-    text-align:center;
-  
-    
-}
-.content h1 {
-    margin-bottom:30px ;
-    margin-top: 20px;
-    text-decoration: underline rgb(255, 255, 79);
-}
-.content p {
-    background-color: antiquewhite;
-    padding: 25px;
+#header_content {
+  color:  #1a1a1a;
+  text-decoration:underline yellow;
+  margin-top:35px;
+  margin-left: 15px;
+  margin-bottom: 25px;
 }
 
-
-
+.content #first_p {
+    margin-left: 15px;
+    font-size: 1.1em;
+}
